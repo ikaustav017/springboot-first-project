@@ -20,6 +20,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+   		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+   			 <artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		<dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+        </dependency>
     </dependencies>
     
     <build>
@@ -27,12 +35,12 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-	    <plugin>
-         	<groupId>org.apache.maven.plugins</groupId>
-          	<artifactId>maven-jar-plugin</artifactId>
-          	<version>3.0.0</version>
- 	    </plugin>
+             </plugin>
+	   		 <plugin>
+         		<groupId>org.apache.maven.plugins</groupId>
+          		<artifactId>maven-jar-plugin</artifactId>
+          		<version>3.0.0</version>
+ 	   		 </plugin>
         </plugins>
     </build>
   
